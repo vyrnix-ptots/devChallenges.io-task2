@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Minimal Blog Card" content="This is a blog card from devChallenges">
+    
+    <title>Minimal Blog card | devChallenges.io | devChallenges</title>
+
+    <style>
+        
+        .card{
+            font-family:Arial, Helvetica, sans-serif;
+            margin-top: 164px;
+            border-radius: 4%;
+            height: 100%;
+            width: 368px;
+            padding: 16px;
+            margin-top: 164px;
+            box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+        }
+
+        .card img{
+            height: 152px;
+            width: 100%;
+            object-fit:fill;
+            margin-bottom: 16px;            
+        }
+        .label{
+            background-color: rgba(138, 49, 120, 0.1);
+            padding-bottom: 6px;
+            padding-top: 6px;
+            padding-left:  16px;
+            padding-right: 16px;
+            border-radius: 30px;
+            font-size: x-small;
+            color:blueviolet;
+        }
+        .card h2{
+            background-color:white;
+            margin-top: 16px;
+            margin-bottom: -10px;
+            font-size: 20px;
+        }
+        .text{
+            background-color:white;
+            font-size: large;
+            color: grey;
+            font-weight: lighter;
+        }
+        .author{
+            margin-bottom: -10px;
+            padding-top: 1px;
+            background-color:white;
+            font-size: small;
+            color: grey;
+        }
+        .line{
+            background: rgb(128, 128, 128, 0.2);
+        }
+
+        @media screen and (max-width : 480px) {
+            .container{
+                display: flex;
+                justify-content: center;
+                width: 100%; 
+            } 
+         }
+        @media screen and (min-width : 768px){
+            .container{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=1200&h=600&fit=crop" alt="a blue-green columnar cactus">
+            
+            <span class="label"><strong>Design</strong></span>
+
+            <h2>Embracing Minimalism</h2>
+
+            <div class="text"></p>From minimalist sculptures to minimalist paintings, this blog will inspire you to apppreciate the beauty that lies in simplicity.</p></div>
+            <div class="line"><hr></div>
+            <div class="author"><p>vyrnix-ptots</p></div>
+        </div>
+    </div>
+</body>
+</html>
